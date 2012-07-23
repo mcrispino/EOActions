@@ -221,6 +221,10 @@
 		8D62587A15B98EC5003A437B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
 				DSTROOT = /tmp/EOActions.dst;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -238,6 +242,10 @@
 		8D62587B15B98EC5003A437B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
 				DSTROOT = /tmp/EOActions.dst;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
